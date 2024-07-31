@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fire_detection</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package for fire detection.</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <!-- Build type -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Export -->
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
